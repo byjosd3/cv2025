@@ -145,7 +145,16 @@ color: #111;
   margin-top: 15px;
   font-weight: bold;
 }
+.contenedor-pagina-proyectos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
 
+  /* ✅ Esto centra el bloque */
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
 /* Responsive para tablet y móvil */
 @media (max-width: 991px) {
   .contenedor-pagina-proyectos {
@@ -159,16 +168,7 @@ color: #111;
   }
 }
 
-.contenedor-pagina-proyectos {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 30px;
 
-  /* ✅ Esto centra el bloque */
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 40px 20px;
-}
 
 
 
