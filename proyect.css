@@ -1,0 +1,227 @@
+/* ========== PROYECTOS ========== */
+/* ========== PROYECTOS ========== */
+
+.section-proyect-head {
+  width: 100%;
+  background-image: url('img/fondo06.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  padding: 100px 20px;
+  text-align: center;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.texto-encima {
+  background-color: transparent !important;
+}
+
+
+/*.section-proyect-head::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 0;
+}*/
+
+/* == Contenedor general de contenido ==*/
+.contenedor-misproyectos {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+  position: relative;
+  z-index: 1;
+}
+
+/* Contenedor de texto dentro del encabezado */
+.contenedor-pagina-delgada {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Título y subtítulo */
+.contenedor-pagina-delgada h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.contenedor-pagina-delgada h2 {
+  font-size: 1.4rem;
+  font-weight: 400;
+  margin: 0;
+}
+
+/* CONTENEDOR DE PROYECTOS (cards) */
+.project-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  padding: 40px 20px;
+}
+
+/* Cards */
+.contenedor-pagina-proyectos {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 40px;
+}
+
+/* Imagen dentro de la card */
+#image-card-proyect {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 10px;
+}
+
+
+
+
+/* ========== CONTENEDOR CARDS ========== */
+
+.contenedor-pagina-proyectos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  padding: 30px;
+}
+
+.project-card {
+  background-color: white;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.h2-card {
+display: inline-block;
+text-align: center;
+font-size: 1.2rem;
+font-weight: 700;
+margin-top: 10px;
+margin-bottom: 0;
+color: #111;
+}
+
+.card-image img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.card-data h2 {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+.card-data p {
+  font-size: 0.95rem;
+  margin-top: 10px;
+  line-height: 1.5;
+}
+
+.boton {
+  background-color: #c20070;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  display: inline-block;
+  padding: 10px 15px;
+  border-radius: 5px;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+/* Responsive para tablet y móvil */
+@media (max-width: 991px) {
+  .contenedor-pagina-proyectos {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .contenedor-pagina-proyectos {
+    grid-template-columns: 1fr;
+  }
+}
+
+.contenedor-pagina-proyectos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+
+  /* ✅ Esto centra el bloque */
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+
+
+/* ========== encabezado/sección 01 ========== */
+
+.section-proyect-head {
+  width: 100%;
+  background-image: url('img/fondo-uxui-proyectos02.jpg'); /* asegúrate que esta imagen exista */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  padding: 110px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: black;
+}
+
+.contenedor-misproyectos {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
+  position: relative;
+  z-index: 1;
+  background-color: transparent;
+}
+
+.contenedor-pagina-delgada {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: transparent; /* <-- elimina cualquier fondo gris */
+  padding: 0; /* <-- por si acaso hay padding innecesario */
+  box-shadow: none; /* <-- elimina cualquier sombra accidental */
+}
+
+.texto-encima {
+  background-color: transparent !important;
+  padding: 0 !important;
+  box-shadow: none !important;
+}
+
+#hola {
+  font-size: 4rem;
+  margin-bottom: 10px;
+  color: #f20086;
+  font-weight: bold;
+}
+
+.contenedor-pagina-delgada h2 { 
+  font-size: 1.7rem; /* <-- subtitulo -- */
+  font-weight: 400;
+  color: black;
+  margin: 0;
+}

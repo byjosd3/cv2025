@@ -1,0 +1,154 @@
+#section-contact {
+    width: 100%;
+    padding: 60px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('img/FONDO01.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  form {
+    background-color: rgba(231, 231, 231, 0.6);
+    padding: 30px;
+    border-radius: 15px;
+    max-width: 800px;
+    width: 100%;
+    color: black;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  }
+
+  fieldset {
+    border: none;
+    margin-bottom: 20px;
+  }
+
+  legend {
+    font-weight: bold;
+    color: #f20086;
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+
+  label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: 500;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  select,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    box-sizing: border-box;
+    font-size: 1rem;
+  }
+
+  .interes {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 5px 0;
+  }
+
+  .botones-formulario {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+  }
+
+  .botones-formulario button {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    background-color: #f20086;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+
+  .botones-formulario button:hover {
+    background-color: #c1006d;
+  }
+
+/* ========== CONTACTO/encabezado ========== */
+
+.section-contacto-head {
+  width: 100%;
+}
+
+.fondo-hero {
+  background-image: url('img/fondo-07.jpg'); /* Usa el mismo fondo que en proyectos */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  padding: 100px 20px;
+  position: relative;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+
+/* Contenedor de texto */
+.texto-encima {
+  position: relative;
+  z-index: 1;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.texto-encima h1 {
+  font-size: 3rem;
+  margin-bottom: 15px;
+}
+
+.texto-encima p {
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin: 0;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .texto-encima h1 {
+    font-size: 2.2rem;
+  }
+
+  .texto-encima p {
+    font-size: 1rem;
+  }
+
+  .fondo-hero {
+    padding: 80px 20px;
+  }
+}
+
+.contenedor-pagina-delgada h2 { 
+  font-size: 1.7rem; /* <-- subtitulo -- */
+  font-weight: 400;
+  color: black;
+  margin: 0;
+}
+
+#parrafo-encabezado-contacto {
+  text-align: center;
+  margin-top: 10px;
+}
+
+#parrafo-encabezado-contacto p {
+  margin: 0;
+  padding: 2px 0;
+}
+

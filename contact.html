@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="contacto.css">
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Sobre mi</a>
+                </li>
+                <li>
+                    <a href="proyectos.html">Proyectos</a>
+                </li>
+
+                <li>
+                    <a href="contact.html">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+            <!----- >>> SECCIÓN 01 <<< ----->
+                <section class="section-proyect-head principal">
+                <div class="contenedor contenedor-misproyectos fondo-hero">
+                    <div class="contenedor-pagina-delgada texto-encima">
+                        <h1 id="hola">¿Conectamos?</h1>
+                        <h2>Estoy a un mensaje de distancia</h2>
+                        <br>
+                        <div id="parrafo-encabezado-contacto"> 
+                            <p>Porque detrás de cada proyecto, hay una conversación que lo hace posible</p>
+                            
+                        </div>
+                    </div>
+                </div>
+                </section>
+                <div id="section-contact">
+
+            <form action="">
+                <fieldset>
+        
+                    <legend>Información personal</legend>
+        
+                    <div>
+                        <label for="nombre">Nombre</label>
+                        <input type="text" name="nombre" id="nombre">
+                    </div>
+        
+        
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email">
+                    </div>
+        
+                    <div>
+                        <label for="telefono">Teléfono</label>
+                        <input type="tel" pattern="[0-9]{9}" name="telefono" id="telefono">
+                    </div>  
+                     
+                    <div>
+                        <label for="interes-en">Interés en:</label>
+                        
+                        <div class="interes">
+                            <label for="contratar">Contratar</label>
+                            <input type="radio" name="interes-en" value="contratar" id="contratar">
+                        </div>
+                    
+                        <div class="interes">
+                            <label for="colaboracion">Colaboración</label>
+                            <input type="radio" name="interes-en" value="colaboracion" id="colaboracion">
+                        </div>
+                    </div>
+          
+                </fieldset>
+
+                <fieldset>
+                    <legend>Mensaje</legend>
+        
+                    <label for="tipo_mensaje">Tipo de mensaje</label>
+                    <select name="tipo_mensaje" id="tipo_mensaje">
+                        <option value="profesional">Profesional</option>
+                        <option value="personal">Personal</option>
+                    </select>
+                    <label for="mensaje">Mensaje</label>
+                    <textarea name="mensaje" id="mensaje" cols="50" rows="4"></textarea>
+                </fieldset>
+
+                <button type="reset">Borrar</button>
+                <button type="submit">Enviar</button>
+            </form>
+            <!--<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2905.876332509786!2d-2.925593425080624!3d43.254013578159466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4e4ffb1931ccc3%3A0xbd889c8f7e3b4f4d!2sBBK%20Bootcamps%20by%20The%20Bridge!5e0!3m2!1ses!2ses!4v1750847599657!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>-->
+        
+        </div>
+    </main>
+
+</body>
+
+<footer class="footer">
+
+    <p id="titulo-footer">&copy; 2025 Josdely Alvarado. Todos los derechos reservados.</p>
+    <div class="footer-enlaces">
+      <a href="mailto:alvarado.josdely@gmail.com">Email</a> |
+      <a href="https://www.behance.net/josdely_alvarado" target="_blank">Behance</a> |
+      <a href="contact.html">Contacto</a>
+    </div>
+
+</footer>
+
+</html>

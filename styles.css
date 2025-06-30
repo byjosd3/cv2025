@@ -1,0 +1,319 @@
+*{ 
+    box-sizing: border-box;
+   } 
+
+
+nav ul {
+  display: flex;
+  justify-content: right;
+  list-style-type: none;
+  gap: 60px;
+  padding-right: 4rem;
+}
+
+nav a {
+  text-decoration: none;
+   color: black;
+}
+
+header {
+  background-color: #ececec;
+  padding: o.2rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+label {
+    display: inline-block;
+    width: 15%;
+    margin: 0;
+}
+
+input {
+    width: 65%;
+    margin: 0;
+}
+
+form {
+    width: 50%;
+    margin: 1rem;
+}
+
+iframe {
+    width: 50%;
+    margin: 1rem;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+#section-contact {
+    display: flex;
+}
+
+
+.interes {
+    width: 30%;
+    display: inline-block;
+}
+
+/* ========== MAIN / SECCIÓN HOLA ========== */
+
+.contenedor-pagina {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 20px;
+    box-sizing: border-box;
+}
+
+.section-soy .profile-picture {
+  margin-left: 40px;
+}
+
+.contenedor-holasoy {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 0 20px;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+}
+
+
+@media (min-width: 768px) {
+    .contenedor{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      align-items: center;
+      gap: 100px;
+    }
+  
+    .columna-izquierda,
+    .columna-derecha {
+      flex: 1;
+    }
+  
+    .columna-izquierda {
+      text-align: center;
+      margin-right: 0;
+    }
+  
+    .columna-derecha {
+      text-align: left;
+    }
+  }
+  
+.section-soy {
+    width: 100%;
+    background-image: url(img/FONDO01.jpg);
+}
+
+.section-sobremi {
+  width: 100px;
+  background-image: url(img/fondo04-1.jpg);
+}
+
+
+
+.columna-izquierda {
+    flex: 1;
+    max-width: 300px;
+    padding-right: 40px;
+}
+
+.profile-picture {
+    width: 450px;
+    border-radius: 0px;
+    object-fit: cover;
+}
+
+.columna-derecha {
+    flex: 2;
+    min-width: 300px;
+}
+
+.columna-derecha h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+
+}
+
+.columna-derecha h2 {
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .columna-derecha div {
+    margin-bottom: 10px;
+  }
+  
+  .boton {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #cc0171;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .boton:hover {
+    background-color: #cc0171;
+  }
+
+main {
+    padding: 0px;
+}
+
+#hola {
+    font-size: 64px;
+    font-weight: 800;
+    color: #cc0171;
+    position: relative;
+    display: inline-block;
+}
+
+#titulo-sobremi {
+    font-size: 44px;
+    font-weight: 800;
+    color: #000000;
+    position: relative;
+    display: inline-block;
+}
+
+#soy {
+  font-size: 34px;
+    font-weight: 800;
+    color: #000000;
+    position: relative;
+    display: inline-block;
+}
+
+body {
+  margin: 0;
+}
+
+.principal {
+  padding: 0 20px;
+}
+
+.contenedor-holasoy {
+  flex-direction: row-reverse;
+}
+
+.contenedor-sobremi {
+  flex-direction: row;
+}
+
+
+/* ========== MAIN / SECCIÓN SOBRE MI ========== */
+
+.index-proyect-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-between;
+}
+
+.index-class {
+  position: relative;
+  border-style: solid;
+  border-color: #cc0171;
+  border-radius: 12px;
+}
+
+.index-class {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 10px;
+} 
+
+
+.card-image-index {
+  width: 40px;
+  height: 40px;
+}
+
+.card-image-index img {
+  width: 100%;
+}
+.index-proyect-list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 4rem;
+}
+
+.section-sobremi {
+  width: 100%;
+  background-color: rgb(186, 192, 188);
+}
+
+/* ========== MAIN / SKILLS ========== */
+
+p {
+  font-family: Arial, sans-serif;
+  letter-spacing: 0.4px;
+  text-align: justify;
+}
+
+.footer {
+  background-color: #333; /* color de fondo */
+  color: white;
+  text-align: center;
+  padding: 40px 40px;
+  margin-top: 30px;
+}
+
+.footer a {
+  color: #ffd700; /* color de acento */
+  text-decoration: none;
+  margin: 0 10px;
+  transition: color 0.3s ease;
+}
+
+.footer a:hover {
+  color: #fff;
+}
+
+.footer-enlaces {
+  margin-top: 10px;
+  font-size: 0.9em;
+}
+
+.tamaño-imagen-skills {
+    width: 300px;
+    border-radius: 0px;
+    object-fit: cover;
+}
+
+header {
+  z-index: 1000;
+}
+
+/* ========== PANTALLA ========== */
+
+/* 1. Elimina scroll horizontal y mantiene todo contenido visible */
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+
+/* 2. Asegura que todo use el mismo modelo de caja */
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+#titulo-footer {
+  text-align: center;
+}
+
