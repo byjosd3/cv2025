@@ -1,0 +1,58 @@
+.experiencia {
+  padding: 60px 20px;
+  background-color: #f9f9f9;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.card-experiencia {
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  background: white;
+  overflow: hidden;
+}
+
+.card-experiencia summary {
+  padding: 20px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1.2em;
+  list-style: none;
+  background-color: #eef1f5;
+}
+
+.card-experiencia[open] summary {
+  background-color: #dde7f0;
+  border-bottom: 1px solid #ccc;
+}
+
+.linea-tiempo {
+  border-left: 3px solid #0078D4;
+  padding: 20px 30px;
+  position: relative;
+}
+
+.item {
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.punto {
+  width: 14px;
+  height: 14px;
+  background-color: #0078D4;
+  border-radius: 50%;
+  position: absolute;
+  left: -38px;
+  top: 6px;
+}
+
+.detalle h4 {
+  margin-bottom: 5px;
+}
+
+.detalle span {
+  color: #666;
+  font-size: 0.85em;
+}
